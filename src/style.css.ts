@@ -25,9 +25,23 @@ const row = style({
   gap: '1rem',
 });
 
+const box = style({
+  borderRadius: '24px',
+  padding: '0 0 1rem',
+  backgroundColor: '#F2F3F5',
+  overflow: 'hidden',
+  display: 'flex',
+  flexDirection: 'column',
+  gap: '1rem',
+  alignItems: 'center',
+  textAlign: 'center',
+  marginTop: '1rem',
+});
+
 export const appSt = {
   bottomBtn,
   container,
   btmContent,
   row,
+  box,
 };
