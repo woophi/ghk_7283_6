@@ -97,7 +97,7 @@ export const App = () => {
                 <PureCell.Main>
                   <div className={appSt.row}>
                     <Typography.Text view="primary-medium" color="primary">
-                      {targetProduct.title}
+                      {product.title}
                     </Typography.Text>
                     {product.children && (
                       <StatusBadge
