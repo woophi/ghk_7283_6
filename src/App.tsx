@@ -20,7 +20,7 @@ export const App = () => {
   }, []);
 
   const handleProductClick = (link: string, title: string, toScreenSelect?: boolean) => {
-    window.gtag('event', '7283_click_product', { var: 'var5', product: title });
+    window.gtag('event', '7283_click_product', { var: 'var6', product: title });
     if (toScreenSelect) {
       setScreen('select');
     } else {
@@ -76,7 +76,7 @@ export const App = () => {
       <BottomSheet
         open={true}
         onClose={() => {
-          window.gtag('event', '7283_exit_click', { var: 'var5' });
+          window.gtag('event', '7283_exit_click', { var: 'var6' });
           window.location.replace('alfabank://open_new_product');
         }}
         contentClassName={appSt.btmContent}
