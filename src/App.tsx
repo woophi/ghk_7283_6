@@ -1,6 +1,6 @@
 import { BottomSheet } from '@alfalab/core-components/bottom-sheet/cssm';
 import { PureCell } from '@alfalab/core-components/pure-cell/cssm';
-import { StatusBadge } from '@alfalab/core-components/status-badge';
+import { StatusBadge } from '@alfalab/core-components/status-badge/cssm';
 import { Typography } from '@alfalab/core-components/typography/cssm';
 import { ChevronRightShiftRightMIcon } from '@alfalab/icons-glyph/ChevronRightShiftRightMIcon';
 import { useEffect, useState } from 'react';
